@@ -4,8 +4,10 @@
 
 GitHub репозиторий: https://github.com/s1tf/SpaceTraveller
 
-## Деплой игры
+## Сборка игры
 
-1. Запускаем команду:
+1. Запустить скрипт `build.cmd`
+2. Запушить сгенерённый файл `SpaceTraveller.pyxapp`
+3. Открыть ссылку:
+https://kitao.github.io/pyxel/wasm/launcher/?play=s1tf.SpaceTraveller.SpaceTraveller
 
-pyxel package APP_DIR STARTUP_SCRIPT_FILE
