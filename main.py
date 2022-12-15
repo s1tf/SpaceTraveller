@@ -19,6 +19,7 @@ class App:
 
     def draw(self):
         pyxel.cls(pyxel.COLOR_BLACK)
+        text.draw(text='Привет, пидр!', x=100, y=100)
         pyxel.text(x=1, y=1, s='Day:', col=pyxel.COLOR_GRAY)
         pyxel.text(x=20, y=1, s=str(day), col=pyxel.COLOR_RED)
         x_offset = 180
